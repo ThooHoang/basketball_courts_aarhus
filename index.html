@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags and title -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <!-- Fonts and stylesheets -->
+    <link href="https://fonts.cdnfonts.com/css/druk-wide-trial" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/apercu-pro" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="/assets/logo_icon.png">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="nav-links">
+                <a href="">Home</a>
+                <a href="./courts.html">Filter</a>
+                <a href="leaderboard.html">Leaderboard</a>
+                <a href="./404.html">Danish</a>
+            </div>
+            <div class="hamburger-menu">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main content -->
+    <main>
+        <!-- Carousel -->
+        <section class="carousel">
+            <!-- List of items -->
+            <div class="list">
+                <!-- Item 1 -->
+                <article class="item">
+                    <img src="assets/pakhus77_bg.png" alt="pakhus77_court_image">
+                    <div class="content">
+                        <div class="court-type">INDOOR</div>
+                        <h2 class="title pakhus77">PAKHUS77</h2>
+                        <p class="topic">A unique indoor basketball court in Aarhus, blending urban vibes with creative spaces for a dynamic basketball experience.</p>
+                        <div class="buttons">
+                            <a href="court_information.html?court=pakhus77"><button class="pakhus77">Explore Now</button></a>
+                        </div>
+                    </div>
+                </article>
+                <!-- Item 2 -->
+                <article class="item">
+                    <img src="assets/risskov_bg.png" alt="risskov_court_image">
+                    <div class="content">
+                        <div class="court-type">OUTDOOR</div>
+                        <h2 class="title risskov">RISSKOV</h2>
+                        <p class="topic">A cozy outdoor court surrounded by nature, perfect for casual games and enjoying fresh air.</p>
+                        <div class="buttons">
+                            <a href="court_information.html?court=risskov"><button class="risskov">Explore Now</button></a>
+                        </div>
+                    </div>
+                </article>
+                <!-- Item 3 -->
+                <article class="item">
+                    <img src="assets/harbor_bg.png" alt="harbor_court_image">
+                    <div class="content">
+                        <div class="court-type">OUTDOOR</div>
+                        <h2 class="title harbor">HARBOR</h2>
+                        <p class="topic">A stunning waterfront court offering scenic views and a lively atmosphere for basketball enthusiasts.</p>
+                        <div class="buttons">
+                            <a href="court_information.html?court=harbor"><button class="harbor">Explore Now</button></a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <!-- Thumbnails -->
+            <div class="thumbnail">
+                <div class="item">
+                    <img src="assets/risskov_bg.png" alt="thumbnail_risskov">
+                </div>
+                <div class="item">
+                    <img src="assets/harbor_bg.png" alt="thumbnail_harbor">
+                </div>
+                <div class="item">
+                    <img src="assets/pakhus77_bg.png" alt="thumbnail_pakhus77">
+                </div>
+            </div>
+            <!-- Arrows -->
+            <div class="arrows">
+                <button id="prev"><</button>
+                <button id="next">></button>
+            </div>
+        </section>
+    </main>
+
+
+    <!-- Scripts -->
+    <script src="js/script.js"></script>
+    <script src="js/hamburger.js"></script>
+</body>
+</html>

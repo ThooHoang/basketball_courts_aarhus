@@ -1,0 +1,351 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+    font-family: 'Apercu Pro', serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Back Button */
+.back-button {
+    position: fixed; /* Change to fixed */
+    top: 20px;
+    left: 20px;
+}
+
+.back-button button {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    border: none;
+    background-color: #FFB928;
+    font-family: monospace;
+    font-weight: bold;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.back-button button:hover {
+    background-color: #555;
+}
+
+/* Navigation */
+nav {
+    position: fixed; /* Change to fixed */
+    top: 20px; /* Adjust top position */
+    right: 20px; /* Adjust right position */
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 1rem;
+    justify-content: space-between;
+    padding: 12px 24px;
+    background: linear-gradient(96.85deg, rgba(255, 185, 40, 0.64) 6.09%, rgba(255, 57, 180, 0.64) 37.92%, rgba(95, 196, 236, 0.64) 65.58%);
+    opacity: 1; /* Set opacity to 1 to make it visible */
+    border-radius: 50px; /* Optional: Add border-radius for rounded corners */
+    z-index: 1000; /* Ensure the navbar is always on top */
+    min-width: 200px; /* Ensure minimum width */
+}
+
+nav a {
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 20px; /* Add margin between links */
+}
+
+.nav-links {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 2rem;
+    justify-content: end;
+}
+
+/* Improved Hamburger Menu */
+.hamburger-menu {
+    display: none;
+    cursor: pointer;
+    padding: 12px;  /* Increased padding for better touch target */
+    min-width: 44px;    /* Minimum touch target size */
+    min-height: 44px;   /* Minimum touch target size */
+    justify-content: center;
+    align-items: center;
+}
+
+.bar {
+    display: block;
+    width: 24px;    /* Increased width */
+    height: 2px;
+    margin: 5px auto;
+    background-color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Main layout */
+main {
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: 4rem;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+/* Content section */
+.content {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    align-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    margin-top: 120px; /* Add top margin to create space below nav */
+}
+
+.content h1 {
+    font-size: clamp(40px, 5vw, 86px);
+    line-height: 80%;
+    font-family: 'Druk Wide Trial', sans-serif;
+    text-align: center;
+}
+
+.content h3 {
+    font-size: clamp(18px, 2vw, 26px);
+    text-align: center;
+}
+
+.h3-color {
+    background: linear-gradient(96.85deg, #FFB928 6.09%, #FF39B4 37.92%, #5FC4EC 65.58%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.h1-color {
+    font-size: clamp(40px, 5vw, 86px);
+    font-family: 'Druk Wide Trial', sans-serif;
+    background: linear-gradient(96.85deg, #FFB928 6.09%, #FF39B4 37.92%, #5FC4EC 65.58%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Cards section */
+.cards .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    place-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    width: 100%;
+    max-width: 400px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add transition for smooth animation */
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.card:hover {
+    transform: translateY(-10px); /* Move the card up on hover */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Add a shadow effect on hover */
+}
+
+.card .buttons .button {
+    padding: 17px 34px;
+    font-family: 'Apercu Pro', serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: #5FC4EC;
+    border-radius: 10px;
+    color: white;
+    margin-top: 1.125rem;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block; /* Ensure it behaves like a button */
+    text-align: center; /* Center the text */
+}
+
+.card .buttons .button.pakhus77 {
+    background-color: #FFB928;
+}
+
+.card .buttons .button.risskov {
+    background-color: #FF39B4;
+}
+
+.card .buttons .button.harbor {
+    background-color: #5FC4EC;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    nav {
+        grid-template-columns: 1fr auto;
+        flex-direction: column; /* Stack links vertically on smaller screens */
+        padding: 8px 16px;
+        width: auto; /* Allow nav to size based on content */
+    }
+
+    nav a {
+        margin: 10px 0; /* Add margin between links */
+    }
+
+    .nav-links {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        transform: translateX(-50%); /* Center the dropdown */
+        width: max-content; /* Size based on content */
+        min-width: 100%; /* At least as wide as the nav */
+        grid-auto-flow: row;
+        gap: 1rem;
+        background: linear-gradient(96.85deg, rgba(255, 185, 40, 0.9) 6.09%, rgba(255, 57, 180, 0.9) 37.92%, rgba(95, 196, 236, 0.9) 65.58%);
+        padding: 1rem;
+        border-radius: 0 0 15px 15px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    nav.active .nav-links {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .nav-links a {
+        white-space: nowrap; /* Prevent text wrapping */
+        padding: 12px 24px;
+        display: block;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .hamburger-menu {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Improved animation */
+    .hamburger-menu.active .bar:nth-child(1) {
+        transform: rotate(-45deg) translate(-6px, 6px);
+    }
+    
+    .hamburger-menu.active .bar:nth-child(3) {
+        transform: rotate(45deg) translate(-6px, -6px);
+    }
+    
+    .hamburger-menu.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .cards .container {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .content {
+        margin-top: 100px; /* Slightly less margin on mobile */
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .content {
+        grid-template-columns: 1fr 1fr;
+        text-align: left;
+        gap: 4rem;
+    }
+
+    .content h1,
+    .content h3 {
+        text-align: left;
+    }
+
+    .cards .container {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 4rem;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .cards .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .back-button {
+        top: 10px;
+        left: 10px;
+    }
+
+    .back-button button {
+        width: 45px;
+        height: 45px;
+        font-size: 18px;
+    }
+
+    nav {
+        padding: 10px;
+        right: 10px;
+    }
+}
+
+/* Small screen adjustments */
+@media screen and (max-width: 480px) {
+    nav {
+        padding: 8px 12px;
+    }
+
+    .hamburger-menu {
+        padding: 6px;
+        margin-right: -4px;
+    }
+
+    .bar {
+        width: 20px;
+        height: 2px;
+        margin: 4px auto;
+    }
+
+    .nav-links a {
+        font-size: 14px;
+    }
+}
+
+/* Device-specific */
+@supports (-webkit-touch-callout: none) {
+    /* iOS-specific fixes */
+    body {
+        -webkit-text-size-adjust: 100%;
+        min-height: -webkit-fill-available;
+    }
+}
+
+/* Landscape mode */
+@media screen and (orientation: landscape) and (max-height: 500px) {
+    .content {
+        margin: 1rem auto;
+    }
+
+    .cards .container {
+        margin: 1rem auto;
+    }
+}

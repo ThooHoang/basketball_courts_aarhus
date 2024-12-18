@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basketball Courts</title>
+    <link rel="stylesheet" href="./css/courts.css">
+    <link href="https://fonts.cdnfonts.com/css/druk-wide-trial" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="/assets/logo_icon.png">
+    <link href="https://fonts.cdnfonts.com/css/apercu-pro" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="hamburger-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="">Filter</a>
+                <a href="leaderboard.html">Leaderboard</a>
+                <a href="./404.html">Danish</a>
+            </div>
+        </nav>
+        <div class="back-button">
+            <a id="backButton" href="index.html"><button><</button></a>
+        </div>
+     </header>
+     <main>
+        <h1>STEP UP YOUR GAME IN <span class="h1-color">AARHUS</span> COURTS!</h1>
+        
+        <div class="filter-container">
+            <select id="courtFilter">
+                <option value="all">All Courts</option>
+                <option value="indoor">Indoor Courts</option>
+                <option value="outdoor">Outdoor Courts</option>
+                <option value="ballRental">Ball Rental</option>
+                <option value="tournaments">Tournaments</option>
+            </select>
+        </div>
+
+        <section class="courts-grid">
+            <article class="court-card" data-types="indoor ballRental tournaments">
+                <img src="./assets/filter_pakhus77.png" alt="Pakhus77">
+                <div class="card-overlay">
+                    <h3>PAKHUS77</h3>
+                    <a href="court_information.html?court=pakhus77" class="view-button">View Court</a>
+                </div>
+            </article>
+
+            <article class="court-card" data-types="outdoor ballRental">
+                <img src="./assets/risskov_card.png" alt="Risskov">
+                <div class="card-overlay">
+                    <h3>RISSKOV</h3>
+                    <a href="court_information.html?court=risskov" class="view-button">View Court</a>
+                </div>
+            </article>
+
+            <article class="court-card" data-types="outdoor">
+                <img src="./assets/filter_harbor.png" alt="Harbor">
+                <div class="card-overlay">
+                    <h3>HARBOR</h3>
+                    <a href="court_information.html?court=harbor" class="view-button">View Court</a>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <script src="js/hamburger.js"></script>
+    <script src="js/courts.js"></script>
+</body>
+</html>

@@ -1,0 +1,202 @@
+{
+    "courts": [
+        {
+            "id": "pakhus77",
+            "type": "INDOOR",
+            "title": "PAKHUS77",
+            "topic": "A unique indoor basketball court in Aarhus, blending urban vibes with creative spaces for a dynamic basketball experience.",
+            "image": "assets/pakhus77_bg.png",
+            "heroImage": "assets/pakhus77_hero.png",
+            "heroColor": "#FFB928",
+            "heroSpanColor": "#FFB928",
+            "heroSpanBorderColor": "#FFB928",
+            "carouselBackgroundColor": "linear-gradient(97.62deg, #FFB928 5.01%, #E15A10 99.09%)",
+            "feedbackBackgroundColor": "linear-gradient(97.62deg, #FFB928 5.01%, #E15A10 99.09%)",
+            "amenitiesTitleColor": "#FFB928",
+            "feedbackSpanColor": "linear-gradient(90deg, #FFFFFF 0%, #FF8C00 139.58%)",
+            "carouselImages": [
+                "assets/pakhus77_carousel_1.png",
+                "assets/pakhus77_carousel_2.png",
+                "assets/pakhus77_carousel_3.png",
+                "assets/pakhus77_carousel_4.png",
+                "assets/pakhus77_carousel_5.png",
+                "assets/pakhus77_carousel_6.png"
+            ],
+            "amenities": {
+                "hoop": {
+                    "title": "10FT HOOP",
+                    "description": "Pakhus77's basketball court features a 10ft hoop, perfect for casual games and practice.",
+                    "color": "#FFB928",
+                    "image": "assets/pakhus77_card.png"
+                },
+                "ball": {
+                    "title": "PICK A BALL",
+                    "description": "Pakhus77 has plenty of balls in the rack—just grab one and start playing on the court!",
+                    "color": "#FFB928",
+                    "image": "assets/pakhus77_card_ball.png"
+                },
+                "workout": {
+                    "title": "WORKOUT",
+                    "description": "Click me and work on your ball handling",
+                    "link": "https://youtube.com",
+                    "color": "#FFB928",
+                    "image": "assets/pakhus77_card_workout.png"
+                }
+            },
+            "additionalColor": "#FFB928",
+            "iframeSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2221.7420816824515!2d10.222784599999999!3d56.1615639!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464c3f4c997a0a0b%3A0x24e4e0ed89cfbfa!2sPakhus%2077!5e0!3m2!1ssk!2ssk!4v1734188760767!5m2!1ssk!2ssk",
+            "feedback": [
+                {
+                    "name": "Samuel",
+                    "date": "1 YEARS AGO",
+                    "text": "Great court with a vibrant atmosphere! Well-maintained and perfect for casual games or practice.",
+                    "image": "./assets/guy1.png"
+                },
+                {
+                    "name": "Radka",
+                    "date": "2 MONTHS AGO",
+                    "text": "Awesome spot for basketball! The 10ft hoop and scenic location make it a great place to play.",
+                    "image": "./assets/girl.png"
+                },
+                {
+                    "name": "Adrian",
+                    "date": "2 YEARS AGO",
+                    "text": "Perfect for all skill levels! Grab a ball and enjoy the game in this lively urban setting.",
+                    "image": "./assets/guy2.png"
+                }
+            ]
+        },
+        {
+            "id": "risskov",
+            "type": "OUTDOOR",
+            "title": "RISSKOV",
+            "topic": "Nestled in Risskov behind the Bakken Bears' hub, this court offers a relaxed space for players of all levels. A vibrant spot where basketball and community come together seamlessly.",
+            "image": "assets/risskov_bg.png",
+            "heroImage": "assets/risskov_hero.png",
+            "heroColor": "#FF39B4",
+            "heroSpanColor": "#FF39B4",
+            "heroSpanBorderColor": "#FF39B4",
+            "carouselBackgroundColor": "linear-gradient(105.91deg, #FF43B8 4.82%, #9C0563 106.93%)",
+            "feedbackBackgroundColor": "linear-gradient(105.91deg, #FF43B8 4.82%, #9C0563 106.93%)",
+            "amenitiesTitleColor": "#FF39B4",
+            "feedbackSpanColor": "linear-gradient(90deg, #FFFFFF 0%, #FF39B4 139.58%)",
+            "carouselImages": [
+                "assets/risskov_carousel_1.png",
+                "assets/risskov_carousel_2.png",
+                "assets/risskov_carousel_3.png",
+                "assets/risskov_carousel_4.png",
+                "assets/risskov_carousel_5.png",
+                "assets/risskov_carousel_6.png"
+            ],
+            "amenities": {
+                "hoop": {
+                    "title": "10FT HOOP",
+                    "description": "Risskov basketball court has a 10ft hoop, perfect for players to practice and enjoy the game.",
+                    "color": "#FF39B4",
+                    "image": "assets/risskov_card.png"
+                },
+                "ball": {
+                    "title": "PICK A BALL",
+                    "description": "Download application “Equip Sport” , Sign up, Pick up your equipment and enjoy!",
+                    "color": "#FF39B4",
+                    "image": "assets/risskov_card_ball.png"
+                },
+                "workout": {
+                    "title": "WORKOUT",
+                    "description": "Click me and work on your ball handling",
+                    "link": "https://youtube.com",
+                    "color": "#FF39B4",
+                    "image": "assets/risskov_card_workout.png"
+                }
+            },
+            "additionalColor": "linear-gradient(90deg, #FFFFFF 0%, #FF39B4 139.58%);",
+            "iframeSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d281.0765021998952!2d10.208817754253952!3d56.19283252669822!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464c3f0020bb217d%3A0xf4fb92a89538c256!2sVejlby-Risskov%20Street%20Court!5e0!3m2!1ssk!2ssk!4v1734347461293!5m2!1ssk!2ssk",
+            "feedback": [
+                {
+                    "name": "Rassmus",
+                    "date": "1 YEARS AGO",
+                    "text": "Great spot for players of all levels! The 10ft hoop is perfect for honing your skills.",
+                    "image": "./assets/guy1.png"
+                },
+                {
+                    "name": "Mathilde",
+                    "date": "2 MONTHS AGO",
+                    "text": "Quiet and well-kept court, ideal for practicing or casual games in a peaceful environment.",
+                    "image": "./assets/girl.png"
+                },
+                {
+                    "name": "Anders",
+                    "date": "2 YEARS AGO",
+                    "text": "A hidden gem in Risskov—serene setting and plenty of space for a relaxed basketball session.",
+                    "image": "./assets/guy2.png"
+                }
+            ]
+        },
+        {
+            "id": "harbor",
+            "type": "OUTDOOR",
+            "title": "HARBOR",
+            "topic": "Harbor is a stunning waterfront basketball court offering scenic views and a vibrant atmosphere, making it a perfect spot for enthusiasts to enjoy the game in a lively, dynamic setting.",
+            "image": "assets/harbor_hero.png",
+            "heroImage": "assets/harbor_hero.png",
+            "heroColor": "#5FC4EC",
+            "heroSpanColor": "#5FC4EC",
+            "heroSpanBorderColor": "#5FC4EC",
+            "carouselBackgroundColor": "linear-gradient(104.08deg, #5FC4EC 1.34%, #1D95C4 100%)",
+            "feedbackBackgroundColor": "linear-gradient(104.08deg, #5FC4EC 1.34%, #1D95C4 100%)",
+            "amenitiesTitleColor": "#5FC4EC",
+            "feedbackSpanColor": "linear-gradient(90deg, #FFFFFF 0%, #4EC0EC 139.58%)",
+            "carouselImages": [
+                "assets/harbor_carousel_1.png",
+                "assets/harbor_carousel_2.png",
+                "assets/harbor_carousel_3.png",
+                "assets/harbor_carousel_4.png",
+                "assets/harbor_carousel_5.png",
+                "assets/harbor_carousel_6.png"
+            ],
+            "amenities": {
+                "hoop": {
+                    "title": "10FT HOOP",
+                    "description": "Harbor's basketball court features a 10ft hoop, perfect for casual games and practice.",
+                    "color": "#5FC4EC",
+                    "image": "assets/harbor_card.png"
+                },
+                "ball": {
+                    "title": "NO BALL RENT",
+                    "description": "At Harbor, balls aren't provided, so make sure to bring your own to enjoy the game!",
+                    "color": "#5FC4EC",
+                    "image": "assets/harbor_card_ball.png"
+                },
+                "workout": {
+                    "title": "WORKOUT",
+                    "description": "Click me and work on your ball handling",
+                    "link": "https://youtube.com",
+                    "color": "#5FC4EC",
+                    "image": "assets/harbor_card_workout.png"
+                }
+            },
+            "additionalColor": "#5FC4EC",
+            "iframeSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d527.6265112212435!2d10.2210351036233!3d56.162312496209736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464c3f000827f21d%3A0xeec7062651da35e1!2sCykel%C3%B8en%20Aarhus!5e0!3m2!1ssk!2ssk!4v1734347551181!5m2!1ssk!2ssk",
+            "feedback": [
+                {
+                    "name": "Richard",
+                    "date": "1 YEARS AGO",
+                    "text": "Stunning waterfront court with a great atmosphere—don’t forget to bring your own ball!",
+                    "image": "./assets/guy1.png"
+                },
+                {
+                    "name": "Emma",
+                    "date": "2 MONTHS AGO",
+                    "text": "Beautiful location and perfect for basketball lovers. Just remember to come prepared with a ball!",
+                    "image": "./assets/girl.png"
+                },
+                {
+                    "name": "Jeppe",
+                    "date": "2 YEARS AGO",
+                    "text": "Harbor offers a unique court experience by the water. Bring your ball and enjoy the vibe!",
+                    "image": "./assets/guy2.png"
+                }
+            ]
+        }
+    ]
+}
