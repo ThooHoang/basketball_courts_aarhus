@@ -1,54 +1,47 @@
-
 # 🏀 Basketball Courts in Aarhus
 
 ## 📄 Overview
 
-This project provides an interactive map and leaderboard for basketball courts in Aarhus, Denmark. It allows users to explore various outdoor and indoor basketball courts, view detailed information about each court, and participate in a leaderboard system to track their visits and performances.
+This project was my **final exam project in 2024** on Multimedia Design Programme in Business Academy Aarhus, for which I received a **perfect grade**.  
+
+The goal was to create a digital solution around the theme **“Hidden Gems”**, and I chose to focus on **basketball courts in Aarhus**. As someone who has loved playing basketball since childhood, I was excited to design an application that helps players discover unique  courts in the city.  
+
+## 🔍 Research & Process
+
+This project was not only about coding, but about applying a **complete UX design process**:  
+
+- **UX Research** – identifying the problem and opportunities  
+- **Interviews & User Insights** – gathering feedback from potential users  
+- **Methodology** – structured approach to concept development  
+- **Final Report** – full documentation of the research and design process  
+
+The **design and website** are the direct result of this research work.  
 
 ## 🚀 Features
 
-- **Interactive Map**: View a map of basketball courts in Aarhus with details such as location, court type, and facilities.
-- **Court Information**: Access detailed information about each court, including images, amenities, and user ratings.
-- **Leaderboard**: Track your visits and performances on the leaderboard to see how you compare with other players.
+- Map-based exploration of basketball courts in Aarhus  
+- Highlighting “hidden gem” courts for players to discover  
+- Court detail pages with information and visuals  
+- Leaderboard concept to engage players and track visits  
 
 ## 🛠️ Technologies Used
 
-- HTML5
-- CSS3
-- JavaScript
+- **HTML5**  
+- **CSS3**  
+- **JavaScript**  
 
-## 📂 Project Structure
+⚠️ **Note:** When it came to the coding part, I relied on AI prompts to generate the code. While the implementation itself was AI-assisted, I’m proud of the final result and how it represents the research and design I worked hard on.  
 
-The repository contains the following main directories and files:
 
-- `index.html`: The main homepage of the application.
-- `courts.html`: A page displaying the list of basketball courts.
-- `court_information.html`: A page providing detailed information about a specific court.
-- `leaderboard.html`: A page showing the leaderboard of players.
-- `404.html`: A custom 404 error page.
-- `assets/`: Directory containing images and other assets.
-- `css/`: Directory containing CSS stylesheets.
-- `js/`: Directory containing JavaScript files.
-- `courts.json`: A JSON file containing data about the basketball courts.
+## 🙌 Motivation
 
-## 📥 Installation
-
-To run the project locally:
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/ThooHoang/basketball_courts_aarhus.git
-   ```
-
-2. Navigate into the project directory:
-
-   ```bash
-   cd basketball_courts_aarhus
-   ```
-
-3. Open `index.html` in your web browser to view the application.
+Basketball has always been a passion of mine, and this project allowed me to combine that passion with UX design and digital creation.  
+Even though the coding was AI-generated, the **concept, research, and design** are fully my own work, and I’m proud of how the project turned out.  
 
 ## 📞 Contact
 
-For inquiries or feedback, please reach out via the contact page or email.
+For inquiries or feedback, feel free to reach out:  
+- ✉️ Email: *adamhoang23@gmail.com*  
+- 💼 LinkedIn: *[https://www.linkedin.com/in/quang-tho-hoang-42801b322/]*  
+
+---
